@@ -15,7 +15,7 @@ app.listen(PORT,function(){
 })
 
 app.get('/',function(req, res){
-	res.send('Abriendo el puerto desde mi pc Local con http://ngrok.com')
+	res.send('Abriendo el puerto desde mi pc Local sin http://ngrok.com')
 })
 
 app.get('/webhook',function(req, res){
