@@ -51,7 +51,7 @@ function evaluarMensaje(senderID, messageText){
 	var mensaje = '';
 
 	if(isContain(messageText,'Good morning')){
-		mensaje = 'Good morning compadre'
+		mensaje = 'Good morning Jose'
 	}else if(isContain(messageText,'info')){
 		mensaje = 'Hola que tal nuestro numero de telefono es: XXX-5545\n mi correo es: esteban.programador@gmail.com'
 	}else if(isContain(messageText,'perro')){
