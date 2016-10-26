@@ -63,7 +63,7 @@ function evaluarMensaje(senderID, messageText){
 			enviarMensajeTexto(senderID, getMessageCLima(_temperatura))
 		})
 	}else{
-		mensaje = '[Heroku]solo se repetir las cosas T_T '+ messageText
+		mensaje = 'I can only repeat your message '+ messageText
 	}
 
 	enviarMensajeTexto(senderID, mensaje)
