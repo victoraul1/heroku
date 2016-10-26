@@ -51,7 +51,7 @@ function evaluarMensaje(senderID, messageText){
 	var mensaje = '';
 
 	if(isContain(messageText,'Good morning')){
-		mensaje = 'Good morning Jose'
+		mensaje = 'Good morning Patojo'
 	}else if(isContain(messageText,'who is Victor?')){
 		mensaje = 'He is my creator'
 	}else if(isContain(messageText,'shake')){
