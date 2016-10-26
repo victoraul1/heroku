@@ -75,7 +75,7 @@ function evaluarMensaje(senderID, messageText){
 		
 	}else if(isContain(messageText,'give me a shake')){
 		enviarMensajeImagen(senderID)
-	}else if(isContain(messageText,'perfil')){
+	}else if(isContain(messageText,'profile')){
 		enviarMensajeTemplate(senderID)
 	}else if(isContain(messageText,'clima') || isContain(messageText,'temperatura')){
 		getClima(function(_temperatura){
@@ -109,13 +109,13 @@ function enviarMensajeTemplate(senderID){
 
 function elementTemplate(){
 	return {
-		title: "Joseph Esteban Carrasco",
-		subtitle: "Programador freelance & Youtuber",
-		item_url: "http://informaticomanchay.com",
-		image_url: "http://jjvirgin.com/wp-content/uploads/2012/08/strawberry-shake.jpg",
+		title: "Victor Raul Galindo",
+		subtitle: "Email Marketer & Web Developer",
+		item_url: "http://victorgalindo.com",
+		image_url: "http://victoraul.com/victorgalindo/wp-content/uploads/2016/10/victorgalindo.jpg",
 		buttons: [
-			buttonTemplate('Contactame','http://informaticomanchay.com/contacto'),
-			buttonTemplate('Portafolio','http://informaticomanchay.com/')
+			buttonTemplate('Contact','http://informaticomanchay.com/contacto'),
+			buttonTemplate('Portfolio','http://victorgalindo.com')
 		]
 	}
 }
