@@ -54,7 +54,7 @@ function evaluarMensaje(senderID, messageText){
 		mensaje = 'Good morning Jose'
 	}else if(isContain(messageText,'who is Victor?')){
 		mensaje = 'He is my creator'
-	}else if(isContain(messageText,'perro')){
+	}else if(isContain(messageText,'shake')){
 		enviarMensajeImagen(senderID)
 	}else if(isContain(messageText,'perfil')){
 		enviarMensajeTemplate(senderID)
@@ -93,7 +93,7 @@ function elementTemplate(){
 		title: "Joseph Esteban Carrasco",
 		subtitle: "Programador freelance & Youtuber",
 		item_url: "http://informaticomanchay.com",
-		image_url: "https://s-media-cache-ak0.pinimg.com/564x/ef/e8/ee/efe8ee7e20537c7af84eaaf88ccc7302.jpg",
+		image_url: "http://jjvirgin.com/wp-content/uploads/2012/08/strawberry-shake.jpg",
 		buttons: [
 			buttonTemplate('Contactame','http://informaticomanchay.com/contacto'),
 			buttonTemplate('Portafolio','http://informaticomanchay.com/')
