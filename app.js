@@ -51,14 +51,14 @@ function evaluarMensaje(senderID, messageText){
 	var mensaje = '';
 
 	if(isContain(messageText,'Good morning')){
-		mensaje = 'Good morning Patojo'
+		mensaje = 'Good morning you all'
 	}else if(isContain(messageText,'who is Victor?')){
 		mensaje = 'He is my creator'
 	}else if(isContain(messageText,'where are you?')){
 		mensaje = 'out there'
 	}else if(isContain(messageText,'do you want to be my friend?')){
 		mensaje = 'yes Victor'		
-	}else if(isContain(messageText,'shake')){
+	}else if(isContain(messageText,'give me a shake')){
 		enviarMensajeImagen(senderID)
 	}else if(isContain(messageText,'perfil')){
 		enviarMensajeTemplate(senderID)
