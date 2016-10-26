@@ -120,7 +120,7 @@ function enviarMensajeImagen(senderID){
 			attachment:{
 				type: "image",
 				payload: {
-					url: 'https://s-media-cache-ak0.pinimg.com/564x/ef/e8/ee/efe8ee7e20537c7af84eaaf88ccc7302.jpg'
+					url: 'http://jjvirgin.com/wp-content/uploads/2012/08/strawberry-shake.jpg'
 				}
 
 			}
