@@ -55,7 +55,9 @@ function evaluarMensaje(senderID, messageText){
 	}else if(isContain(messageText,'who is Victor?')){
 		mensaje = 'He is my creator'
 	}else if(isContain(messageText,'where are you?')){
-		mensaje = 'out there'	
+		mensaje = 'out there'
+	}else if(isContain(messageText,'do you want to be my friend?')){
+		mensaje = 'yes Victor'		
 	}else if(isContain(messageText,'shake')){
 		enviarMensajeImagen(senderID)
 	}else if(isContain(messageText,'perfil')){
