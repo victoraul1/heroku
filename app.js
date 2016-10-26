@@ -61,7 +61,18 @@ function evaluarMensaje(senderID, messageText){
 	}else if(isContain(messageText,'where are you?')){
 		mensaje = 'out there'
 	}else if(isContain(messageText,'do you want to be my friend?')){
-		mensaje = 'yes Victor'		
+		mensaje = 'yes Victor'
+	}else if(isContain(messageText,'who are you?')){
+                mensaje = 'my name is Homeless'	
+		
+	}else if(isContain(messageText,'what is your name?')){
+                mensaje = 'my name is Homeless'	
+	}else if(isContain(messageText,'hello Homeless')){
+                mensaje = 'Hello Victor'
+		
+	}else if(isContain(messageText,'tell me a story')){
+                mensaje = 'Once upon a time, there was a boy whose name was Pinocchio and all he wanted was to be just like the other kids, a human being.'	
+		
 	}else if(isContain(messageText,'give me a shake')){
 		enviarMensajeImagen(senderID)
 	}else if(isContain(messageText,'perfil')){
