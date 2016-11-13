@@ -62,6 +62,16 @@ function evaluarMensaje(senderID, messageText){
 		mensaje = 'out there'
 	}else if(isContain(messageText,'where exactlty are you?')){
 		mensaje = 'wherever you go'
+	}else if(isContain(messageText,'hello')){
+		mensaje = 'Hello Victor'	
+	}else if(isContain(messageText,'Hello')){
+		mensaje = 'Hello Victor'	
+	}else if(isContain(messageText,'Hi')){
+		mensaje = 'Hello Victor'		
+	}else if(isContain(messageText,'Hi there')){
+		mensaje = 'Hello Victor'	
+	}else if(isContain(messageText,'hi')){
+		mensaje = 'Hello Victor'						
 
 	}else if(isContain(messageText,'do you want to be my friend?')){
 		mensaje = 'yes Victor'
