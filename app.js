@@ -60,8 +60,17 @@ function evaluarMensaje(senderID, messageText){
                 mensaje = 'I dont know, he is not on my list of friends'		
 	}else if(isContain(messageText,'where are you?')){
 		mensaje = 'out there'
+	}else if(isContain(messageText,'where exactlty are you?')){
+		mensaje = 'wherever you go'
+
 	}else if(isContain(messageText,'do you want to be my friend?')){
 		mensaje = 'yes Victor'
+	}else if(isContain(messageText,'can we be friends?')){
+		mensaje = 'yes Victor we can be friends'	
+	}else if(isContain(messageText,'can I be your friend?')){
+		mensaje = 'yes Victor you can be my friend'	
+	}else if(isContain(messageText,'can you be my friend?')){
+		mensaje = 'yes Victor, I can be your friend'				
 	}else if(isContain(messageText,'who are you?')){
                 mensaje = 'my name is Homeless'	
 		
