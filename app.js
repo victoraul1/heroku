@@ -54,6 +54,9 @@ function evaluarMensaje(senderID, messageText){
 		mensaje = 'Good morning you all'
 	}else if(isContain(messageText,'who is Victor?')){
 		mensaje = 'He is my creator'
+	}else if(isContain(messageText,'Who is Victor?')){
+		mensaje = 'He is my creator'		
+		
 	}else if(isContain(messageText,'who is Rey?')){
                 mensaje = 'did you say Rey?'	
 	}else if(isContain(messageText,'yes, Rey')){
