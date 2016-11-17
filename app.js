@@ -88,6 +88,12 @@ function evaluarMensaje(senderID, messageText){
 		mensaje = 'yes Victor, I can be your friend'				
 	}else if(isContain(messageText,'who are you?')){
                 mensaje = 'my name is Homeless'	
+	}else if(isContain(messageText,'who are you')){
+                mensaje = 'my name is Homeless'		
+		
+	}else if(isContain(messageText,'Who are you')){
+                mensaje = 'my name is Homeless'			
+		
 		
 	}else if(isContain(messageText,'what is your name?')){
                 mensaje = 'my name is Homeless'	
